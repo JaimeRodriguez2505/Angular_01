@@ -1,0 +1,94 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que ocupe al menos el 100% del alto de la ventana */
+    text-align: center; /* Alinea el texto de todo el cuerpo al centro */
+  }
+  
+  /* Estilos para el título principal */
+  h1 {
+    color: #007bff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los contenedores */
+  .container {
+    width: 80%;
+    padding-top: 20px;
+    text-align: left; /* Restablece el texto alineado a la izquierda dentro del contenedor */
+  }
+  
+  /* Estilos para las tarjetas de imágenes */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  /* Estilos para el contador y saludos */
+  div > h2, div > p, div > button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el texto dentro de estos elementos */
+  }
+  
+  /* Estilos para botones */
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para mensajes de saludo */
+  div > p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Ajustes adicionales y estilos específicos pueden ser añadidos aquí */
+  .centered-content {
+    text-align: center;
+  }
+  
+  /* Estilos para centrar botones horizontalmente */
+  .centered-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+  }
